@@ -12,7 +12,7 @@ var gulp = require('gulp');
 	uglify = require('gulp-uglify'),
 
 	//Only work with new or updated files
-	newer = require('gul-newer'),
+	newer = require('gulp-newer'),
 
 	//Name of working theme folder
 	root = '../' + themename + '/',
